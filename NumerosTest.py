@@ -8,7 +8,7 @@ class NumerosTest(TestCase):
         self.numeros.definirCadena("1,2,3,4,5")
         self.assertEqual(self.numeros.cadena, "1,2,3,4,5", "No definio la cadena")
 
-    def test_arregloConNumeroElementos (self):
+    def test_darNumeroDeElementos (self):
         self.numeros.definirCadena("")
         self.assertEqual(self.numeros.darArreglo()[0], 0, "No devolvio correctamente el numero de elementos")
 
@@ -23,5 +23,6 @@ class NumerosTest(TestCase):
 
         self.numeros.definirCadena("1,2,3,4,5,6,7")
         self.assertEqual(self.numeros.darArreglo()[0], 7, "No devolvio correctamente el numero de elementos")
+
 
 
