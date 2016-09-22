@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df26b278-b515-4643-bced-e5d726fbba97" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Numeros.py" afterPath="$PROJECT_DIR$/Numeros.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NumerosTest.py" afterPath="$PROJECT_DIR$/NumerosTest.py" />
     </list>
     <ignored path="tdd-kata001.iws" />
@@ -16,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/tdd-kata001$Unittests_in_test_calculadora.coverage" NAME="Unittests in NumerosTest Coverage Results" MODIFIED="1474505673611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tdd-kata001$Unittests_in_test_calculadora.coverage" NAME="Unittests in NumerosTest Coverage Results" MODIFIED="1474505879569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="NumerosTest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NumerosTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+            <state relative-caret-position="120">
+              <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -380,12 +379,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_NumerosTest - 2016.09.21 at 19h 41m 28s.xml">
-      <configuration name="Unittests in NumerosTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_NumerosTest - 2016.09.21 at 19h 41m 47s.xml">
-      <configuration name="Unittests in NumerosTest" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_NumerosTest - 2016.09.21 at 19h 42m 53s.xml">
       <configuration name="Unittests in NumerosTest" configurationId="tests" />
     </history-entry>
@@ -408,6 +401,12 @@
       <configuration name="Unittests in NumerosTest" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_NumerosTest - 2016.09.21 at 19h 54m 33s.xml">
+      <configuration name="Unittests in NumerosTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_NumerosTest - 2016.09.21 at 19h 57m 50s.xml">
+      <configuration name="Unittests in NumerosTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_NumerosTest - 2016.09.21 at 19h 57m 59s.xml">
       <configuration name="Unittests in NumerosTest" configurationId="tests" />
     </history-entry>
   </component>
@@ -461,8 +460,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NumerosTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        <state relative-caret-position="120">
+          <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
