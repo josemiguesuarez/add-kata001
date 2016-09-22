@@ -5,8 +5,17 @@ class Numeros:
 
     def darArreglo (self):
         arreglo = self.cadena.split(",")
+        arregloInts = []
         for item in arreglo:
             if item == '':
                 arreglo.remove(item)
+            else:
+                arregloInts.append(int(item))
 
-        return [len(arreglo), 0]
+        if(len(arregloInts) == 0):
+            min = 0
+        else:
+            min = arregloInts[0]
+
+
+        return [len(arregloInts), min]
