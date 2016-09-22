@@ -4,12 +4,15 @@ from Numeros import Numeros
 class NumerosTest(TestCase):
     numeros = Numeros()
 
+    def escenario1 (self):
+        self.numeros.definirCadena("")
+
     def test_definirCadena (self):
         self.numeros.definirCadena("1,2,3,4,5")
         self.assertEqual(self.numeros.cadena, "1,2,3,4,5", "No definio la cadena")
 
     def test_darNumeroDeElementos (self):
-        self.numeros.definirCadena("")
+        self.escenario1()
         self.assertEqual(self.numeros.darArreglo()[0], 0, "No devolvio correctamente el numero de elementos")
 
         self.numeros.definirCadena("1")
@@ -22,6 +25,6 @@ class NumerosTest(TestCase):
         self.assertEqual(self.numeros.darArreglo()[0], 7, "No devolvio correctamente el numero de elementos")
 
     def test_darMinimo(self):
-        self.numeros.definirCadena("")
+        self.escenario1()
         self.assertEqual(self.numeros.darArreglo()[1], 0, "No devolvio correctamente el minimo de los elementos")
 
