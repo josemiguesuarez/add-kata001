@@ -15,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/tdd-kata001$Unittests_in_test_calculadora.coverage" NAME="Unittests in NumerosTest Coverage Results" MODIFIED="1474505283090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tdd-kata001$Unittests_in_test_calculadora.coverage" NAME="Unittests in NumerosTest Coverage Results" MODIFIED="1474505436992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -29,8 +29,8 @@
       <file leaf-file-name="NumerosTest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NumerosTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="75">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -397,6 +397,9 @@
     <history-entry file="Unittests_in_NumerosTest - 2016.09.21 at 19h 48m 03s.xml">
       <configuration name="Unittests in NumerosTest" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_NumerosTest - 2016.09.21 at 19h 50m 37s.xml">
+      <configuration name="Unittests in NumerosTest" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittests_in_test_calculadora - 2016.09.21 at 19h 38m 34s.xml">
       <configuration name="Unittests in test_calculadora" configurationId="tests" />
     </history-entry>
@@ -451,8 +454,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NumerosTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
