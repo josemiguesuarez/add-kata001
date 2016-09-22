@@ -9,4 +9,4 @@ class Numeros:
             if item == '':
                 arreglo.remove(item)
 
-        return [len(arreglo)]
+        return [len(arreglo), 0]
