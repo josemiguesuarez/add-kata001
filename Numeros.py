@@ -8,5 +8,5 @@ class Numeros:
         for item in arreglo:
             if item == '':
                 arreglo.remove(item)
-        print arreglo
+
         return [len(arreglo)]
