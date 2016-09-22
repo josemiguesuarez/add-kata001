@@ -11,3 +11,8 @@ class NumerosTest(TestCase):
     def test_arregloConNumeroElementos (self):
         self.numeros.definirCadena("")
         self.assertEqual(self.numeros.darArreglo()[0], 0, "No devolvio correctamente el numero de elementos")
+
+        self.numeros.definirCadena("1")
+        self.assertEqual(self.numeros.darArreglo()[0], 1, "No devolvio correctamente el numero de elementos")
+
+
