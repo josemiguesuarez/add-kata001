@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df26b278-b515-4643-bced-e5d726fbba97" name="Default" comment="" />
+    <list default="true" id="df26b278-b515-4643-bced-e5d726fbba97" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NumerosTest.py" afterPath="$PROJECT_DIR$/NumerosTest.py" />
+    </list>
     <ignored path="tdd-kata001.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -13,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/tdd-kata001$Unittests_in_test_calculadora.coverage" NAME="Unittests in NumerosTest Coverage Results" MODIFIED="1474504973135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tdd-kata001$Unittests_in_test_calculadora.coverage" NAME="Unittests in NumerosTest Coverage Results" MODIFIED="1474505283090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -27,11 +29,21 @@
       <file leaf-file-name="NumerosTest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NumerosTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+            <state relative-caret-position="60">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Numeros.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Numeros.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,6 +58,7 @@
       <list>
         <option value="$PROJECT_DIR$/Calculadora.py" />
         <option value="$PROJECT_DIR$/test_calculadora.py" />
+        <option value="$PROJECT_DIR$/Numeros.py" />
         <option value="$PROJECT_DIR$/NumerosTest.py" />
       </list>
     </option>
@@ -378,6 +391,12 @@
     <history-entry file="Unittests_in_NumerosTest - 2016.09.21 at 19h 42m 53s.xml">
       <configuration name="Unittests in NumerosTest" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_NumerosTest - 2016.09.21 at 19h 47m 14s.xml">
+      <configuration name="Unittests in NumerosTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_NumerosTest - 2016.09.21 at 19h 48m 03s.xml">
+      <configuration name="Unittests in NumerosTest" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittests_in_test_calculadora - 2016.09.21 at 19h 38m 34s.xml">
       <configuration name="Unittests in test_calculadora" configurationId="tests" />
     </history-entry>
@@ -425,15 +444,15 @@
     <entry file="file://$PROJECT_DIR$/Numeros.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NumerosTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        <state relative-caret-position="60">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
