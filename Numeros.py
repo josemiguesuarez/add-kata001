@@ -1,3 +1,3 @@
 class Numeros:
-    def sumar (cadena):
+    def definirCadena (self, cadena):
         pass
