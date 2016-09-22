@@ -15,4 +15,13 @@ class NumerosTest(TestCase):
         self.numeros.definirCadena("1")
         self.assertEqual(self.numeros.darArreglo()[0], 1, "No devolvio correctamente el numero de elementos")
 
+        self.numeros.definirCadena("1,2")
+        self.assertEqual(self.numeros.darArreglo()[0], 2, "No devolvio correctamente el numero de elementos")
+
+        self.numeros.definirCadena("1,2")
+        self.assertEqual(self.numeros.darArreglo()[0], 2, "No devolvio correctamente el numero de elementos")
+
+        self.numeros.definirCadena("1,2,3,4,5,6,7")
+        self.assertEqual(self.numeros.darArreglo()[0], 7, "No devolvio correctamente el numero de elementos")
+
 
