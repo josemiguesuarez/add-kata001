@@ -18,11 +18,10 @@ class NumerosTest(TestCase):
         self.numeros.definirCadena("1,2")
         self.assertEqual(self.numeros.darArreglo()[0], 2, "No devolvio correctamente el numero de elementos")
 
-        self.numeros.definirCadena("1,2")
-        self.assertEqual(self.numeros.darArreglo()[0], 2, "No devolvio correctamente el numero de elementos")
-
         self.numeros.definirCadena("1,2,3,4,5,6,7")
         self.assertEqual(self.numeros.darArreglo()[0], 7, "No devolvio correctamente el numero de elementos")
 
-
+    def test_darMinimo(self):
+        self.numeros.definirCadena("")
+        self.assertEqual(self.numeros.darArreglo()[1], 0, "No devolvio correctamente el minimo de los elementos")
 
