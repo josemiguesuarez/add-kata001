@@ -1,3 +1,4 @@
 class Numeros:
+    cadena = ""
     def definirCadena (self, cadena):
-        pass
+        self.cadena = cadena
