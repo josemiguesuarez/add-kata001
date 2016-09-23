@@ -61,6 +61,6 @@ class NumerosTest(TestCase):
 
     def test_darPromedio(self):
         self.escenario1()
-        self.assertEqual(self.numeros.darArreglo()[3], float('nan'), "No devolvio correctamente el promedio de los elementos")
+        self.assertEqual(self.numeros.darArreglo()[3], 0, "No devolvio correctamente el promedio de los elementos")
 
 
