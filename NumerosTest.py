@@ -7,6 +7,9 @@ class NumerosTest(TestCase):
     def escenario1 (self):
         self.numeros.definirCadena("")
 
+    def escenario2(self):
+        self.numeros.definirCadena("1")
+
     def test_definirCadena (self):
         self.numeros.definirCadena("1,2,3,4,5")
         self.assertEqual(self.numeros.cadena, "1,2,3,4,5", "No definio la cadena")
@@ -15,7 +18,7 @@ class NumerosTest(TestCase):
         self.escenario1()
         self.assertEqual(self.numeros.darArreglo()[0], 0, "No devolvio correctamente el numero de elementos")
 
-        self.numeros.definirCadena("1")
+        self.escenario2()
         self.assertEqual(self.numeros.darArreglo()[0], 1, "No devolvio correctamente el numero de elementos")
 
         self.numeros.definirCadena("1,2")
@@ -26,8 +29,8 @@ class NumerosTest(TestCase):
 
     def test_darMinimo(self):
         self.escenario1()
-        self.assertEqual(self.numeros.darArreglo()[1], 0, "No devolvio correctamente el minimo de los elementos")
+        self.assertEqual(self.numeros.darArreglo()[1], float('inf'), "No devolvio correctamente el minimo de los elementos")
 
-        self.numeros.definirCadena("1")
+        self.escenario2()
         self.assertEqual(self.numeros.darArreglo()[1], 1, "No devolvio correctamente el minimo de los elementos")
 

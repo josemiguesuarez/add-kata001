@@ -13,7 +13,7 @@ class Numeros:
                 arregloInts.append(int(item))
 
         if(len(arregloInts) == 0):
-            min = 0
+            min = float('inf')
         else:
             min = arregloInts[0]
 
