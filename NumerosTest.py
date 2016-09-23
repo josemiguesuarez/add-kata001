@@ -50,4 +50,7 @@ class NumerosTest(TestCase):
         self.escenario1()
         self.assertEqual(self.numeros.darArreglo()[2], -float('inf'), "No devolvio correctamente el maximo de los elementos")
 
+        self.escenario2()
+        self.assertEqual(self.numeros.darArreglo()[2], 1, "No devolvio correctamente el maximo de los elementos")
+
 

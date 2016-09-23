@@ -17,5 +17,4 @@ class Numeros:
         else:
             min2 = min(arregloInts)
 
-
         return [len(arregloInts), min2, -float('inf')]
