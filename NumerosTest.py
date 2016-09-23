@@ -46,3 +46,8 @@ class NumerosTest(TestCase):
         self.escenario4()
         self.assertEqual(self.numeros.darArreglo()[1], 2, "No devolvio correctamente el minimo de los elementos")
 
+    def test_darMaximo(self):
+        self.escenario1()
+        self.assertEqual(self.numeros.darArreglo()[2], -float('inf'), "No devolvio correctamente el maximo de los elementos")
+
+
