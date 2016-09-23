@@ -14,7 +14,7 @@ class NumerosTest(TestCase):
         self.numeros.definirCadena("1,2")
 
     def escenario4(self):
-        self.numeros.definirCadena("6,2,3,2,5,6,7")
+        self.numeros.definirCadena("6,2,3,2,5,7,6,3")
 
     def test_definirCadena (self):
         self.numeros.definirCadena("1,2,3,4,5")
@@ -31,7 +31,7 @@ class NumerosTest(TestCase):
         self.assertEqual(self.numeros.darArreglo()[0], 2, "No devolvio correctamente el numero de elementos")
 
         self.escenario4()
-        self.assertEqual(self.numeros.darArreglo()[0], 7, "No devolvio correctamente el numero de elementos")
+        self.assertEqual(self.numeros.darArreglo()[0], 8, "No devolvio correctamente el numero de elementos")
 
     def test_darMinimo(self):
         self.escenario1()
@@ -68,5 +68,8 @@ class NumerosTest(TestCase):
 
         self.escenario3()
         self.assertEqual(self.numeros.darArreglo()[3], 1.5, "No devolvio correctamente el promedio de los elementos")
+
+        self.escenario4()
+        self.assertAlmostEqual(self.numeros.darArreglo()[3], 4.25, "No devolvio correctamente el promedio de los elementos")
 
 

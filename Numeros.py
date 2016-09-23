@@ -21,4 +21,6 @@ class Numeros:
             max2 = max(arregloInts)
             prom = float(sum(arregloInts))/len(arregloInts)
 
+        print prom
+
         return [len(arregloInts), min2, max2, prom]
