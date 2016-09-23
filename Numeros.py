@@ -19,7 +19,4 @@ class Numeros:
             min2 = min(arregloInts)
             max2 = arregloInts[0]
 
-
-
-
         return [len(arregloInts), min2, max2]
