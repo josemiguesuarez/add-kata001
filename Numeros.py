@@ -13,9 +13,9 @@ class Numeros:
                 arregloInts.append(int(item))
 
         if(len(arregloInts) == 0):
-            min = float('inf')
+            min2 = float('inf')
         else:
-            min = arregloInts[0]
+            min2 = min(arregloInts)
 
 
-        return [len(arregloInts), min]
+        return [len(arregloInts), min2]
