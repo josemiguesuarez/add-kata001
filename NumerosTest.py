@@ -59,4 +59,8 @@ class NumerosTest(TestCase):
         self.escenario4()
         self.assertEqual(self.numeros.darArreglo()[2], 7, "No devolvio correctamente el maximo de los elementos")
 
+    def test_darPromedio(self):
+        self.escenario1()
+        self.assertEqual(self.numeros.darArreglo()[3], float('nan'), "No devolvio correctamente el promedio de los elementos")
+
 
