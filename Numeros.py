@@ -18,4 +18,4 @@ class Numeros:
             min2 = min(arregloInts)
 
 
-        return [len(arregloInts), min2]
+        return [len(arregloInts), min2, -float('inf')]
