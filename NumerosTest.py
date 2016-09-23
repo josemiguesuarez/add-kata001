@@ -34,3 +34,9 @@ class NumerosTest(TestCase):
         self.escenario2()
         self.assertEqual(self.numeros.darArreglo()[1], 1, "No devolvio correctamente el minimo de los elementos")
 
+        self.numeros.definirCadena("1,2")
+        self.assertEqual(self.numeros.darArreglo()[1], 1, "No devolvio correctamente el minimo de los elementos")
+
+        self.numeros.definirCadena("6,2,3,2,5,6,7")
+        self.assertEqual(self.numeros.darArreglo()[1], 2, "No devolvio correctamente el minimo de los elementos")
+
