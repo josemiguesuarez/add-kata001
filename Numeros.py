@@ -17,6 +17,6 @@ class Numeros:
             max2 = -float('inf')
         else:
             min2 = min(arregloInts)
-            max2 = arregloInts[0]
-            
+            max2 = max(arregloInts)
+
         return [len(arregloInts), min2, max2]
