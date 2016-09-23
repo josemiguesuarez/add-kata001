@@ -66,4 +66,7 @@ class NumerosTest(TestCase):
         self.escenario2()
         self.assertEqual(self.numeros.darArreglo()[3], 1, "No devolvio correctamente el promedio de los elementos")
 
+        self.escenario3()
+        self.assertEqual(self.numeros.darArreglo()[3], 1.5, "No devolvio correctamente el promedio de los elementos")
+
 
