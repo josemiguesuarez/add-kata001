@@ -53,4 +53,7 @@ class NumerosTest(TestCase):
         self.escenario2()
         self.assertEqual(self.numeros.darArreglo()[2], 1, "No devolvio correctamente el maximo de los elementos")
 
+        self.escenario3()
+        self.assertEqual(self.numeros.darArreglo()[2], 2, "No devolvio correctamente el maximo de los elementos")
+
 
